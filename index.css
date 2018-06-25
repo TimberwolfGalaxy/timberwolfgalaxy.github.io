@@ -31,7 +31,7 @@ header p {
 .jumbotronContentHeading {
   display: flex;
   align-items: center;
-  background-image: url('https://i.imgur.com/EvqUtC3.png');
+  background-image: url('./tower.png');
   background-size: cover;
   color: #ffffff;
   height: 500px;
