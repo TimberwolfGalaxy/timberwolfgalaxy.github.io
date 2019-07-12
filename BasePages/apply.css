@@ -31,7 +31,7 @@ header p {
 .jumbotronContentHeading {
   display: flex;
   align-items: center;
-  background-image: url('./allegianceback.jpg');
+  background-image: url('./Images/javaran.png');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -60,7 +60,7 @@ header p {
   align-items: center;
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 200px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   box-shadow: 0px 8px 16px -6px black;
 }
@@ -73,14 +73,14 @@ header p {
   color: #333;
 }
 
-.staff {
+.apply {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   background-size: cover;
   color: #ffffff;
   height: auto;
 }
-.staff h2 {
+.apply h2 {
   margin: 0 30 0;
   text-align: left;
   font-size: 30px;
@@ -88,23 +88,12 @@ header p {
   color: #333;
 }
 
-.staff h3 {
+.apply h3 {
   margin: 0 30 0;
   text-align: left;
   font-size: 15px;
   font-weight: 100;
   color: #333;
-}
-.container ul{
-  display: inline-block;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.container li{
-    display: inline-block;
-      align-items: center;
-        margin-top: 50px;
 }
 
 section .row img {
