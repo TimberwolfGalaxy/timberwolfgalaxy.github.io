@@ -31,7 +31,7 @@ header p {
 .jumbotronContentHeading {
   display: flex;
   align-items: center;
-  background-image: url('./twgbanner.png');
+  background-image: url('./BasePages/Images/twgbanner.png');
   background-size: cover;
   color: #ffffff;
   height: 500px;
@@ -60,17 +60,17 @@ header p {
   align-items: center;
   background-size: cover;
   color: #ffffff;
-  height: 200px;
+  height: auto;
   text-shadow: 0.25px 0.25px 0.25px #000000;
   box-shadow: 0px 8px 16px -6px black;
 }
 
 .jumbotronInfo h3 {
-  margin: 0 0 0;
   text-align: center;
   font-size: 15px;
   font-weight: 100;
   color: #333;
+  line-height: 25px;
 }
 
 section .row img {
@@ -100,6 +100,10 @@ section .row img {
   color: #ffffff;
   margin: 0 0 30px;
 }
+.figureitem{
+  height:auto;
+  width:25vw;
+}
 
 footer {
   font-size: 12px;
@@ -118,4 +122,12 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+#imagelist{
+  display:block;
+  margin-top:20px;
+}
+#imagelist img{
+  display:block;
+  margin-top:20px;
 }
