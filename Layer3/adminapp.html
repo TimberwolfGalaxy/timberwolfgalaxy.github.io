@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<title>Timberwolf Galaxy | Administrator Application</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="../Layer1/Images/logo.png" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  a {color:#333;}
+a:hover {color:#EEE; text-decoration:none;}
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('../Layer2/Images/Descriptions/admin.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2 a{
+  color:#8BF;
+  text-decoration:none;
+}
+h2 a:hover{
+  color:#8BF;
+  text-decoration:none;
+}
+h1 b a:hover{
+  color:#000;
+}
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  height:2500px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+div.transbox{
+  color:#000;
+}
+
+div.transbox p {
+  text-align:left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:10px;
+  margin-bottom:0px;
+  color: #000000;
+}
+div.transbox input {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+div.transbox select {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+div.transbox textarea {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:0px;
+  margin-bottom:0px;
+  resize:none;
+  width:54vw;
+}
+div.transbox h2{
+  text-align:center;
+  margin-top:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+div.transbox h3{
+  text-align:center;
+  margin-top:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #000000;
+}
+div.transbox h4{
+  margin-top:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.hidden{
+  display:none;
+}
+@media only screen and (max-width: 925px) {
+  a {color:#333;}
+a:hover {color:#EEE; text-decoration:none;}
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('../Layer2/Images/Descriptions/admin.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2 a{
+  color:#8BF;
+  text-decoration:none;
+}
+h2 a:hover{
+  color:#8BF;
+  text-decoration:none;
+}
+h1 b a:hover{
+  color:#000;
+}
+
+div.transbox {
+  height:2500px;
+  margin-left:0px;
+  margin-right:0px;
+  background-color: rgba(255, 255, 255);
+}
+div.transbox{
+  color:#000;
+}
+
+div.transbox p {
+  text-align:left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:10px;
+  margin-bottom:0px;
+  color: #000000;
+}
+div.transbox input {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+div.transbox select {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+div.transbox textarea {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top:0px;
+  margin-bottom:0px;
+  resize:none;
+  width:54vw;
+}
+div.transbox h2{
+  text-align:center;
+  padding-top:200px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+div.transbox h3{
+  text-align:center;
+  margin-top:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #000000;
+}
+div.transbox h4{
+  margin-top:auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.hidden{
+  display:none;
+}
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <a href="../index.html"><img src="../Layer1/Images/logo.png" style="height:20vh;"/></a>
+  </div>
+<div class="w3-display-topright w3-padding-large w3-xlarge">
+  <h1 class="w3-jumbo w3-animate-top"><b style="font-size:4vw;"><a href='../Layer1/applicationhub.html'>GO BACK</a></b></h1>
+</div>
+<div class="transbox">
+  <h2><br></br>ADMINISTRATOR APPLICATION<br></br></h2>
+  <h3>Please answer the questions below with as much accuracy as possible. Remember: BE HONEST IN YOUR APPLICATION.<br></br><br></br></h3>
+  <form action='https://formsapi.jabwn.com/key/fB7G0SFxgbzdVmLywU7b' method='post'>
+    <input class='hidden' name='App Type' type='text' value='Administrator'></input>
+  <h4>GENERAL INFO</h4>
+  <p>Minecraft Username: *</p>
+  <input name='Minecraft Username' type='text' required></input>
+  <p>Discord Username (+tag): *</p>
+  <input name='Discord Username' type='text' required></input>
+  <p>If applicable, what tier-1 position do you currently hold? (choose one) *</p>
+  <select name="Current Staff Position" required>
+    <option value="NA">N/A</option>
+    <option value="Professor">Professor</option>
+    <option value="Animal Trainer">Animal Trainer</option>
+    <option value="Builder">Builder</option>
+    <option value="Developer">Developer</option>
+  </select>
+  <p>Any other general info you think we need to know?</p>
+  <textarea name='General Info' rows=5></textarea>
+  <br></br>
+  <br></br>
+  <h4>ADMIN-SPECIFIC INFO</h4>
+  <p>Are you currently a moderator? *</p>
+  <input type='radio' name='Moderator Status' value='Yes'>Yes</input>
+  <br></br>
+  <input type='radio' name='Moderator Status' value='No' checked>No</input>
+  <p>Are you currently bonded? (NOT REQUIRED FOR RANK) *</p>
+  <input type='radio' name='Bonded Status' value='Yes'>Yes</input>
+  <br></br>
+  <input type='radio' name='Bonded Status' value='No' checked>No</input>
+  <p>How much time can you commit to our server? What timezone are you in? *</p>
+  <textarea name='Potential Time Commitment' rows=3 required></textarea>
+  <p>If applicable, describe your experience as a staff member on other servers. Be sure to include server names and IPs. If the server was shut down, tell us why.</p>
+  <textarea name='Other Server Experience' rows=5></textarea>
+  <p>In at least five sentences, explain why you think we should choose you over many other applicants for the position of administrator. *</p>
+  <textarea name='Why You' rows=5 required></textarea>
+  <p>Why do you think your presence will benefit our server? *</p>
+  <textarea name='Why You Again' rows=5 required></textarea>
+  <p>Do you have any issues with current administrators that will prevent you from working with them? *</p>
+  <textarea name='Current Issues' rows=5 required></textarea>
+  <p>In at least five sentences, describe your experience on our server. *</p>
+  <textarea name='TWG Experience' rows=5 required></textarea>
+  <p>Do you understand that all administrators MUST treat all players equally and with respect? *</p>
+  <input type='radio' name='Equal Treatment' value='Yes'>Yes</input>
+  <br></br>
+  <input type='radio' name='Equal Treatment' value='No' checked>No</input>
+  <p>Submitting this application certifies that if accepted, Timberwolf Galaxy will have the right to revoke your position at any time, for any reason. Both during and after your time as staff, you may not share anything that is meant as a secret to staff, and doing so, if revealed to be deliberate, will result in a ban from the server.</p>
+  <input type="submit" value="Submit">
+  </form>
+
+</div>
+</div>
+
+</html>
+</body>
+</html>
