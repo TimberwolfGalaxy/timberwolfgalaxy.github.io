@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<title>Timberwolf Galaxy | About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="./Images/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?version:1.3" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+a:hover {color:#EEE; text-decoration:none;}
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('./Images/Launcher/base.png?version:0.1');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#scrollto div{
+  margin-left:5vw;
+  margin-right:5vw;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <a href="../index.html"><img src="./Images/logo.png" style="height:20vh;"/></a>
+  </div>
+  <div class="w3-display-topright w3-padding-large w3-xlarge">
+    <p style="font-size:2vh;"><b><a href="#">About</a></b> <b style="margin-left:2vw;"><a href="#">Launcher</a></b> <b style="margin-left:2vw;"><a href="./apply.html">Apply</a></b> <b style="margin-left:2vw;"><a href="./more.html">More</a></b></p>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top"><b style="font-size:4vw;">LAUNCHER</b></h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center"><a href="#scrollto" class="btn btn-info" role="button" style="margin-top:10px;">Scroll &#x290B;</a></p>
+  </div>
+</div>
+
+<div class="jumbotron" id="scrollto" style="margin:auto; background-color:#FFF; text-align:center;">
+  <h1><b>Select your platform!</b></h1>
+  <p>We assure you that any warnings that your computer gives you about the launcher being unsafe can be disregarded. The source code for the custom launcher can be found <a href='https://github.com/SKCraft/Launcher' style='color:#0000FF'>HERE</a>. The application used to package the launcher into a .exe file can be found <a href='http://launch4j.sourceforge.net/' style='color:#0000FF'>HERE</a></p>
+  <div style="height:22vh;text-align:center;display:inline-block;">
+  <a href='./LauncherOptions/TimberwolfGalaxy.exe'><img src="./Images/Launcher/winlogo.png" style="height:20vh;"/></a>
+  <p style="margin-top:1vh;">Windows Installer</p>
+  </div>
+  <div style="height:22vh;text-align:center;display:inline-block;">
+  <a href='./LauncherOptions/TimberwolfGalaxy.app'><img src="./Images/Launcher/maclogo.png" style="height:20vh;"/></a>
+  <p style="margin-top:1vh;">Mac Installer</p>
+  </div>
+  <div style="height:22vh;text-align:center;display:inline-block;">
+  <a href='./LauncherOptions/TimberwolfGalaxy.jar'><img src="./Images/Launcher/javalogo.png" style="height:20vh;"/></a>
+  <p style="margin-top:1vh;">JAR File</p>
+  </div>
+  <div style="height:22vh;text-align:center;display:inline-block;">
+  <a href='./LauncherOptions/mods.zip'><img src="./Images/Launcher/ziplogo.svg" style="height:20vh;"/></a>
+  <p style="margin-top:1vh;">Manual Zip Archive</p>
+  </div>
+</div>
