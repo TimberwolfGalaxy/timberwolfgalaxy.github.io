@@ -1,0 +1,12 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Timberwolf Galaxy Official Modpack",
+      "name" : "TWGOfficial",
+      "version" : "MAC-1.0.0.0",
+      "location" : "twgofficial.json",
+      "priority" : 0
+    }
+  ]
+}
