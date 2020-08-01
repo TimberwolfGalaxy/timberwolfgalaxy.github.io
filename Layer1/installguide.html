@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<title>Timberwolf Galaxy | Installation Guide</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="./Images/logo.png" type="image/x-icon">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?version:4.0" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  a:hover {
+    color: #EEE;
+    text-decoration: none;
+  }
+
+  body,
+  h1 {
+    font-family: "Raleway", sans-serif
+  }
+
+  body,
+  html {
+    height: 100%
+  }
+
+  .bgimg {
+    background-image: url('./Images/InstallGuide/base.png?version:0.1');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #scrollto div {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  #scrollto a {
+    color: #0000FF;
+    display: block;
+  }
+
+  #scrollto a:hover {
+    color: #5555FF;
+  }
+  div div div img{
+    border: 0.5vw solid #000;
+  }
+  .info{
+    background: #FFFFEE;
+  }
+
+  .options{
+    width:20vw;
+  }
+
+  @media only screen and (max-width:809px){
+    .options{
+      width:80vw;
+    }
+  }
+</style>
+
+<body>
+
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+      <a href="../index.html"><img src="./Images/logo.png" style="height:20vh;" /></a>
+    </div>
+    <div class="w3-display-topright w3-padding-large w3-xlarge">
+      <p style="font-size:2vh;"><b><a href="#">About</a></b> <b style="margin-left:2vw;"><a href="./launcher.html">Launcher</a></b> <b style="margin-left:2vw;"><a href="./apply.html">Apply</a></b> <b style="margin-left:2vw;"><a
+            href="./more.html">More</a></b></p>
+    </div>
+    <div class="w3-display-middle">
+      <h1 class="w3-jumbo w3-animate-top"><b style="font-size:4vw;">INSTALLATION GUIDE</b></h1>
+      <hr class="w3-border-grey" style="margin:auto;width:40%">
+      <p class="w3-large w3-center"><a href="#scrollto" class="btn btn-info" role="button" style="margin-top:10px;">Scroll &#x290B;</a></p>
+    </div>
+  </div>
+
+  <div class="jumbotron" id="scrollto" style="margin:auto; background-color:#FFF; text-align:left;">
+    <h1 style="text-align:center"><b>Welcome to the Installation Guide!</b></h1>
+    <div id="section">
+      <div id="toc" style="width:200px;background:#EEFFFF">
+        <h3>Table of Contents</h3>
+        <p>
+        <a href="#windows"><b>Windows</b></a>
+        <a href="#initial-steps-win" style="text-indent:50px;">Installation</a>
+        <a href="#troubleshooting-win" style="text-indent:50px;">Troubleshooting</a>
+        <a href="#manual"><b>Manual (Zip File)</b></a>
+        <a href="#windows-manual" style="text-indent:50px;">Windows</a>
+        <a href="#mac-manual" style="text-indent:50px;">Mac</a>
+        <a href="#unix-manual" style="text-indent:50px;">UNIX</a>
+        </p>
+      </div>
+
+      <div class="info" id="windows">
+        <h1><b>Windows</b></h1>
+        <br></br>
+        <div id="initial-steps-win">
+          <h3><i><u>Installation</u></i></h3>
+          <p>
+            If you haven't already, head over to <a href="./launcher.html" style="display:inline;">https://timberwolfgalaxy.github.io/Layer1/launcher.html</a> and grab yourself a copy of the windows launcher. Your browser may regard the launcher as malicious software, but rest assured - this is a false positive. All the info about what is packaged in the executable is present on the launcher page itself and open-source. Depending on your browser, you may have to unlock a hidden option to keep the file instead of discarding it on arrival.
+            <br></br>
+            <img src="./Images/InstallGuide/grabwindowslauncher.PNG" style="width:80vw;"/>
+            <br></br>
+            Once you have a copy of the launcher, you are ready to set it up. In order to set up the launcher:
+            <ol>
+              <li>Double click the launcher to run it</li>
+              <li>If Windows Defender prevents you from running the launcher, click Advanced, then Run Anyway.</li>
+              <li>Get Java if you don't have it already (the download link should pop up if you don't have Java)</li>
+              <li>Click on the option that says, "Timberwolf Galaxy Official Modpack"</li>
+              <li>Click "Launch"</li>
+              <li>Enter your Minecraft Credentials (don't worry - we can't see them)</li>
+              <li>If the game pops up, you can close this window. There will likely never be problems. If the game does not pop up, see <a href="#troubleshooting-win" style="display:inline;">Troubleshooting</a></li>
+            </ol>
+          </p>
+        </div>
+        <div id="troubleshooting-win">
+          <h3><i><u>Troubleshooting</u></i></h3>
+          <p>
+            The most common issue we have seen is that the maximum allocated RAM is too high for your system. In order to fix this issue:
+            <ol>
+              <li>Run the launcher.</li>
+              <li>Click on the Timberwolf Galaxy Official Modpack option</li>
+              <li>Click on the Options button, to the left of Launch, and a window like this will pop up:</li>
+              <img src="./Images/InstallGuide/optionswindow.PNG" class="options"/>
+              <li>Change "Maximum Memory (MB)" from 4,096 to 2000</li>
+              <img src="./Images/InstallGuide/optionschange.PNG" class="options"/>
+              <li>Click OK</li>
+              <li>If the issue persists, contact support at our <a href="https://discord.gg/Uc4sUwf" style="display:inline;">Discord</a></li>
+            </ol>
+          </p>
+        </div>
+      </div>
+
+      <div class="info" id="manual">
+        <h1><b>Manual (Zip File)</b></h1>
+        <br></br>
+        <p>Follow these tutorials until you get to the mods folder. After you do, extract the zip file and drag the mods in.</p>
+        <div id="windows-manual">
+          <h3><i><u>Windows</u></i></h3>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/WL-vZ-ZJXIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="mac-manual">
+          <h3><i><u>Mac</u></i></h3>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/y4n1ktT3-LA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="unix-manual">
+          <h3><i><u>UNIX</u></i></h3>
+          <p>Follow the Mac tutorial, however, your .minecraft directory is located at ~/.minecraft</p>
+        </div>
+      </div>
+    </div>
+  </div>
